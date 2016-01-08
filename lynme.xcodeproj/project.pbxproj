@@ -15,6 +15,7 @@
 		B8842F561C3E091900F2212B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8842F541C3E091900F2212B /* LaunchScreen.storyboard */; };
 		B8842F611C3E091900F2212B /* lynmeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8842F601C3E091900F2212B /* lynmeTests.m */; };
 		B8842F6C1C3E091A00F2212B /* lynmeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8842F6B1C3E091A00F2212B /* lynmeUITests.m */; };
+		B8842F811C3F38BD00F2212B /* UIViewController+AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8842F801C3F38BD00F2212B /* UIViewController+AccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B8842F671C3E091A00F2212B /* lynmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lynmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8842F6B1C3E091A00F2212B /* lynmeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lynmeUITests.m; sourceTree = "<group>"; };
 		B8842F6D1C3E091A00F2212B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8842F7F1C3F38BD00F2212B /* UIViewController+AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AccountViewController.h"; sourceTree = "<group>"; };
+		B8842F801C3F38BD00F2212B /* UIViewController+AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AccountViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				B8842F4C1C3E091900F2212B /* ViewController.h */,
 				B8842F4D1C3E091900F2212B /* ViewController.m */,
 				B8842F4F1C3E091900F2212B /* Main.storyboard */,
+				B8842F7F1C3F38BD00F2212B /* UIViewController+AccountViewController.h */,
+				B8842F801C3F38BD00F2212B /* UIViewController+AccountViewController.m */,
 				B8842F521C3E091900F2212B /* Assets.xcassets */,
 				B8842F541C3E091900F2212B /* LaunchScreen.storyboard */,
 				B8842F571C3E091900F2212B /* Info.plist */,
@@ -273,6 +278,7 @@
 				B8842F4E1C3E091900F2212B /* ViewController.m in Sources */,
 				B8842F4B1C3E091900F2212B /* AppDelegate.m in Sources */,
 				B8842F481C3E091900F2212B /* main.m in Sources */,
+				B8842F811C3F38BD00F2212B /* UIViewController+AccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				B8842F721C3E091A00F2212B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8842F731C3E091A00F2212B /* Build configuration list for PBXNativeTarget "lynmeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				B8842F751C3E091A00F2212B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8842F761C3E091A00F2212B /* Build configuration list for PBXNativeTarget "lynmeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				B8842F781C3E091A00F2212B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
