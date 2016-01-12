@@ -8,16 +8,21 @@
 
 #import "UIViewController+AccountViewController.h"
 
-@interface AccountViewController
+@interface AccountViewController ()
 
 @end
 
 
-@implementation UIViewController (AccountViewController)
-
+@implementation AccountViewController
+@synthesize accountName, accountUserName, accountPass, accountConfPass, accountPhone, accountEmail, accountAddress;
 
 - (IBAction) AccountRequestButtonPressed{
-
+    NSString *name1 = accountName.text;
+    NSLog(@"%@", name1);
+    //if username and email do not exist in the database, success
+    
+    //else print ambiguous error
+    
 }
 
 @end

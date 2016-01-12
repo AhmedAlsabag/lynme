@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
             endingLineNumber = "15"
-            landmarkName = "@implementation UIViewController(AccountViewController)"
+            landmarkName = "@implementation AccountViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>

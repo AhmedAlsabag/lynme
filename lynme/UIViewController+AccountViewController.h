@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (AccountViewController)
+@interface AccountViewController: UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *accountName;
 @property (weak, nonatomic) IBOutlet UITextField *accountUserName;

@@ -97,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="288" y="321"/>
         </scene>
-        <!--View Controller-->
+        <!--Account View Controller-->
         <scene sceneID="8h3-G1-eN2">
             <objects>
-                <viewController storyboardIdentifier="AccountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IjM-Ne-9Bh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AccountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IjM-Ne-9Bh" customClass="AccountViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jsy-cW-BOi"/>
                         <viewControllerLayoutGuide type="bottom" id="knl-Bg-fBP"/>
@@ -185,7 +185,7 @@
                                 <rect key="frame" x="276" y="389" width="49" height="30"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
-                                    <action selector="AccountRequestButtonPressed" destination="IjM-Ne-9Bh" eventType="touchUpInside" id="060-RS-Zym"/>
+                                    <action selector="AccountRequestButtonPressed" destination="IjM-Ne-9Bh" eventType="touchUpInside" id="vRa-2q-LEb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Make an Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRl-Qp-h9O">
@@ -242,13 +242,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="accountAddress" destination="ttz-sa-srp" id="3Pj-kY-Ix7"/>
-                        <outlet property="accountConfPass" destination="EhL-1T-Wov" id="lvX-fz-JV1"/>
-                        <outlet property="accountEmail" destination="juN-Rw-LDU" id="dOJ-GA-vtT"/>
-                        <outlet property="accountName" destination="7zN-yI-7SM" id="xYM-m7-Gdl"/>
-                        <outlet property="accountPass" destination="dre-6v-SqE" id="S5I-4m-nHt"/>
-                        <outlet property="accountPhone" destination="Fmf-Md-nl6" id="0W1-kP-qjl"/>
-                        <outlet property="accountUserName" destination="Ifs-xh-0HM" id="B6n-pM-c24"/>
+                        <outlet property="accountAddress" destination="ttz-sa-srp" id="TMx-9a-AoQ"/>
+                        <outlet property="accountConfPass" destination="EhL-1T-Wov" id="xTS-Rp-CGq"/>
+                        <outlet property="accountEmail" destination="ttz-sa-srp" id="AZm-0K-gXM"/>
+                        <outlet property="accountName" destination="7zN-yI-7SM" id="sq3-nY-wkg"/>
+                        <outlet property="accountPass" destination="dre-6v-SqE" id="5Rn-Vn-57g"/>
+                        <outlet property="accountPhone" destination="Fmf-Md-nl6" id="99g-Gu-98w"/>
+                        <outlet property="accountUserName" destination="Ifs-xh-0HM" id="IFX-br-pQ2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P1D-OA-qle" userLabel="First Responder" sceneMemberID="firstResponder"/>
